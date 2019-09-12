@@ -27,3 +27,16 @@ function detectOverlap(arr) {
     return false;
 }
 detectOverlap(arr);
+
+//given a SORTED list of intervals, detect if the new given interval fits or not
+function verifyConflict(arr, newTime){
+
+}
+// constraints: time is O(log n) space is O(1)
+// return true
+console.log(verifyConflict([[1,2],[3,4],[8,9]], [5,6]))
+// return false
+console.log(verifyConflict([[1,2],[3,7],[8,9]], [5,6]))
+// return true
+console.log(verifyConflict([[1,2],[3,7],[8,9]], [10,11]))
+
